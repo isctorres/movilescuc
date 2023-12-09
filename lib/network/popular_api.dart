@@ -5,7 +5,7 @@ import 'package:moviles/models/popular_model.dart';
 
 class PopularApi {
 
-  Uri link = Uri.parse('https://api.themoviedb.org/3/movie/popular?api_key=5019e68de7bc112f4e4337a500b96c56&language=es-MX&page=1');  
+  Uri link = Uri.parse('https://api.themoviedb.org/3/movie/popular?api_key=&language=es-MX&page=1');  
 
   Future<List<PopularModel>?> getAllPopular() async {
     var res = await http.get(link);
