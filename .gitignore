@@ -2,3 +2,4 @@ windows/
 macos/
 web/
 linux/
+lib/network/popular_api.dart

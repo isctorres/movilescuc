@@ -46,6 +46,13 @@ class _DashboardScreenState extends State<DashboardScreen> {
               subtitle: const Text('Mis compras'),
               trailing: const Icon(Icons.chevron_right),
             ),
+            ListTile(
+              onTap: () => Navigator.pushNamed(context, '/movies'),
+              leading: const Icon(Icons.movie),
+              title: const Text('Movies App'),
+              subtitle: const Text('Peliculas más populares'),
+              trailing: const Icon(Icons.chevron_right),
+            ),
             const ListTile(
               leading: Icon(Icons.close),
               title: Text('Cerrar Sesión'),

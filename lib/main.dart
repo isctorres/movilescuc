@@ -4,6 +4,7 @@ import 'package:moviles/screens/dashboard_screen.dart';
 import 'package:moviles/screens/despensa_screen.dart';
 import 'package:moviles/screens/intenciones_screen.dart';
 import 'package:moviles/screens/login_screen.dart';
+import 'package:moviles/screens/popular_screen.dart';
 import 'package:moviles/screens/product_screen.dart';
 import 'package:moviles/screens/register_screen.dart';
 import 'package:provider/provider.dart';
@@ -37,7 +38,8 @@ class MatApp extends StatelessWidget {
         '/dash'     : (context) => const DashboardScreen(),
         '/intent'   : (context) => const IntencionesScreen(),
         '/despensa' : (context) => const DespensaScreen(),
-        '/add'      : (context) => const ProductScreen() 
+        '/add'      : (context) => const ProductScreen(),
+        '/movies'   :(context) => const PopularScreen() 
       },
       home: LoginScreen(),
     );
